@@ -10,7 +10,7 @@
 
 ### 5. Repeat step 4 for all models of the training epoch in Step 2 to obtain a series of ground models and error models.
 
-### 6. For the ground model and error model of each epoch in Step 5, use influences scores.py in influences scores to calculate their influence scores.
+### 6. For the ground model and error model of each epoch in Step 5, use `influences_scores.py` in `influences scores` to calculate their influence scores.
 
 ### 7. Use `debias_and_denoise.py` to calculate the recall metrics of the AUC metrics for the results in all epochs in Step 6.
 
